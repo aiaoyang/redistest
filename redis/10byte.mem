@@ -1,0 +1,17 @@
+127.0.0.1:6379> info memory
+# Memory
+used_memory:13309408
+used_memory_human:12.69M
+used_memory_rss:21393408
+used_memory_rss_human:20.40M
+used_memory_peak:13337760
+used_memory_peak_human:12.72M
+total_system_memory:8344768512
+total_system_memory_human:7.77G
+used_memory_lua:37888
+used_memory_lua_human:37.00K
+maxmemory:0
+maxmemory_human:0B
+maxmemory_policy:noeviction
+mem_fragmentation_ratio:1.61
+mem_allocator:jemalloc-3.6.0

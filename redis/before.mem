@@ -1,0 +1,19 @@
+127.0.0.1:6379> keys *
+(empty list or set)
+127.0.0.1:6379> info memory
+# Memory
+used_memory:811640
+used_memory_human:792.62K
+used_memory_rss:12906496
+used_memory_rss_human:12.31M
+used_memory_peak:4630712
+used_memory_peak_human:4.42M
+total_system_memory:8344768512
+total_system_memory_human:7.77G
+used_memory_lua:37888
+used_memory_lua_human:37.00K
+maxmemory:0
+maxmemory_human:0B
+maxmemory_policy:noeviction
+mem_fragmentation_ratio:15.90
+mem_allocator:jemalloc-3.6.0
